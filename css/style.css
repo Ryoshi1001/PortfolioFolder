@@ -538,13 +538,15 @@ h6 {
   width: 100%;
   height: auto;
 }
-.hero-area .tech-tools span {
-  width: fit-content;
+/* .hero-area .tech-tools span {
+  width: 100% !important;
   font-size: 36px;
+  text-align: center !important;
+  margin: 0px auto !important;
   font-weight: bold;
-}
+} */
 .hero-area .link-group {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 .hero-area .hero-social {
   display: inline-block;
@@ -2632,13 +2634,33 @@ h6 {
 
 
   @media (max-width: 1200px) {
-  /* coins added */
+  .hero-area {
+      padding: 0 0 0rem 0;
+  }
+  .jewel-khan {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .hero-area .tech-tools {
+  width: 100% !important;
+  text-align: center !important;
+  }
+
+  .hero-area .tech-tools span {
+    width: 100% !important;
+    font-size: 36px;
+    text-align: center !important;
+    font-weight: bold;
+    left: 0px !important;
+  }
+    
   .link-group a {
     display: block;
   }
-  .tech-tools {
-    margin-bottom: 18px;
-  }
+
   .link-group a:first-child {
     display: block;
     margin: 0px auto;
@@ -2649,23 +2671,34 @@ h6 {
   }
   .hero-area .link-group {
     /* margin-top: 60px; */
-    margin-top: 20px;
-  }
-  .jewel-khan {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: 38px;
   }
   }
 
   @media (min-width: 1200px) {
     .jewel-khan {
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      align-items: start;
-      text-align: start;
+      width: auto !important;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: start !important;
+      align-items: start !important;
+    }
+    .hero-area .tech-tools {
+      width: 100% !important;
+      height: auto !important;
+      text-align: center !important;
+      }
+    
+    .hero-area .tech-tools span {
+      width: 100% !important;
+      font-size: 36px !important;
+      text-align: left !important;
+      font-weight: bold !important;
+      left: 0px !important;
+    }
+    .hero-area .link-group {
+      /* margin-top: 60px; */
+      margin-top: 110px;
     }
   }
 
