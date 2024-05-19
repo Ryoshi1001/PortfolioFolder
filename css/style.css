@@ -848,8 +848,8 @@ h6 {
   bottom: -50%;
 }
 .portfolio-section .box img {
-  width: 100%;
-  height: auto;
+  width: 100%; 
+  height: auto; 
 }
 .portfolio-section .box .box-content {
   color: #fff;

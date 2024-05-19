@@ -15,7 +15,7 @@ $('#tech-tools').textition({
       animation: 'ease-out',
       map: {x: 200, y: 100, z: 0},
       autoplay: true,
-      interval: 3,
+      interval: 2.4,
       speed: 1
    });
 
@@ -231,7 +231,7 @@ $(function() {
         if (data.responseText !== '') {
             $(formMessages).text(data.responseText);
         } else {
-            $(formMessages).text('Oops! An error occured and your message could not be sent.');
+            $(formMessages).text('Oops! An error occurred and your message could not be sent.');
         }
     });
 
